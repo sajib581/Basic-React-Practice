@@ -5,7 +5,7 @@ class Title extends Component {
   constructor() {
     super();
     this.state = {
-      title: "Jay Sree Krishna title",
+      title: "Timer",
       isInput: false,
     };
   }

@@ -34,7 +34,7 @@ class App extends Component {
         sec = 0;
       }
       this.setState({
-        ...this.state,
+        ...this.state, //NO RISK
         time: {
           min,
           sec,
@@ -52,6 +52,7 @@ class App extends Component {
     let time = {
       ...this.state.time
     }
+    console.log(time);
     this.setState({
       ...this.state,
       laps:[time,...this.state.laps]
