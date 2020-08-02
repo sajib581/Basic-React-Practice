@@ -66,6 +66,7 @@ class App extends Component {
         sec: 0,
         mili: 0,
       },
+      laps : []
     })
   }
 
